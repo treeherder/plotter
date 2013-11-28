@@ -25,12 +25,12 @@ def chk_pth(pth):
 						
 						
 def gen_static(loc):  # use this method to make some html
-	with open('template.txt') as r:  #this is a more or less complete page
-		with open('{0}/index.html'.format(loc), 'a+') as w:  # for test purposes
-			for line in r:
-				w.write(line)
-	r.close()
-	w.close()
+  with open('template.txt') as r:  #this is a more or less complete page
+    with open('{0}/index.html'.format(loc), 'a+') as w:  # for test purposes
+      for line in r:
+        w.write(line)
+  r.close()
+  w.close()
 
 	
 	
