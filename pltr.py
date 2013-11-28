@@ -34,5 +34,5 @@ def gen_static(loc):  # use this method to make some html
 
 	
 	
-chk_pth(path)
+chk_pth(subdir)
 gen_static(subdir)
