@@ -8,3 +8,11 @@ Since I'm unfamiliar with PHP, and am launching this site on a Raspberry Pi, any
 		- ???
 		- profit
 
+    - edit existing files?
+		- create more complex args for element number position and size?
+
+pltr.py --dir <str> --depth <int> --element <str> --style <str>
+
+pltr --dir wiki/broccoli --depth 2 --style <str> --element jumbotron  --element right-column  
+
+I might be able to eliminate depth with a style source, basically just need some way to line up the appropriate depth for various file locations in the directory tree.
