@@ -9,7 +9,7 @@
     <title>gardenplot's brief history</title>
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="../css/gardenplot.css" rel="stylesheet">
-    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/var/www/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
   <body>

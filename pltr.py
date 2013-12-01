@@ -1,7 +1,7 @@
 import argparse
 import os
 import errno
-
+from xml.dom.minidom import parse
 
 parser = argparse.ArgumentParser(description='make static html with consitent styling')
 parser.add_argument('--jmtrn', dest='jmtrn')
@@ -12,15 +12,18 @@ parser.add_argument('--dir', dest='dir')
 
 args = parser.parse_args()
 dir = args.dir
+nav = args.nav
+jmtrn - args.jmtrn
+
 
 root = '/var/www/' #where html files are served from
-subdir = root+dir
+subdir = root+dir #the name of the html page we want to create
 
 def chk_pth(pth):
   try:
     os.makedirs(pth)
-  except OSError as expt:
-    if expt.errno != errno.EEXIST:
+  except OSError:
+    if except.errno != errno.EEXIST:
       raise
 						
 						

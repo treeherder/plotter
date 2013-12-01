@@ -10,9 +10,9 @@ Since I'm unfamiliar with PHP, and am launching this site on a Raspberry Pi, any
 
     - edit existing files?
 		- create more complex args for element number position and size?
-
-pltr.py --dir <str> --depth <int> --element <str> --style <str>
-
-pltr --dir wiki/broccoli --depth 2 --style <str> --element jumbotron  --element right-column  
-
-I might be able to eliminate depth with a style source, basically just need some way to line up the appropriate depth for various file locations in the directory tree.
+		
+usage:
+	pltr.py --dir <str> --depth <int> --style <str> --element <str> --style <str> --template <str>
+	pltr --dir wiki/broccoli --depth 2 --style css/style.css  --element jumbotron  --element right-column  --template wiki
+  the depth and style tags achieve the same ends in that they both work to establish the directory tree for locating style, etc but depth would work for any generically named directories + files
+	
