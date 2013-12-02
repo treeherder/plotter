@@ -1,8 +1,0 @@
- <li></li>
-        <br>
-        <div class="section" >
-        <div class="jumbotron" style="text-align:center; padding-top:10px; background-color: rgba(155, 155, 155, 0.6)">
-            <h1></h1>
-              <p></p>
-                <p></p>
-              </div>
